@@ -34,3 +34,7 @@ vendor.hw.sf.IdleLazyResetThresholdT=1000
 persist.vendor.radio.fetchqos=true
 persist.vendor.rcs.singlereg.feature=1
 ro.vendor.radio.imei.sv=16
+
+#ril
+ro.telephony.iwlan_operation_mode=default
+ro.telephony.default_network=27,27
