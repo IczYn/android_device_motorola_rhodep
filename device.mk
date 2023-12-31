@@ -43,6 +43,10 @@ PRODUCT_PACKAGES += \
     init.mmi.overlay.rc \
     init.oem.fingerprint.overlay.sh \
     init.oem.fingerprint2.sh
+# RIL
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.0 \
+    android.hardware.secure_element@1.2.vendor
 
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 31
